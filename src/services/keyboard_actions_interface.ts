@@ -92,6 +92,7 @@ const enum KeyboardActionNamesEnum {
     zoomIn,
     zoomReset,
     copyWithoutFormatting,
+    createNewSplit,
     forceSaveRevision
 }
 

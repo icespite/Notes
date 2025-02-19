@@ -22,6 +22,12 @@ function getDefaultKeyboardActions() {
             scope: "window"
         },
         {
+            actionName: "createNewSplit",
+            defaultShortcuts: ["F3"],
+            description: t("keyboard_actions.create-new-split"),
+            scope: "window"
+        },
+        {
             actionName: "forwardInNoteHistory",
             // Mac has a different history navigation shortcuts - https://github.com/zadam/trilium/issues/376
             defaultShortcuts: isMac ? ["CommandOrControl+Right"] : ["Alt+Right"],
